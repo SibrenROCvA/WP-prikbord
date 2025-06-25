@@ -1,0 +1,136 @@
+/*
+Theme Name: Prikbord
+Description: A child theme of Astra Theme customized for Prikbord functionality
+Author: Sibren
+Template: astra
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: prikbord
+*/
+
+/* Prikbord Custom Styles */
+
+/* Form Styling */
+#prikbord-filter {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+#prikbord-filter select,
+#prikbord-filter input[type="text"] {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#prikbord-filter button {
+    background-color: #2271b1;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#prikbord-filter button:hover {
+    background-color: #135e96;
+}
+
+/* Prikbord Post Styling */
+.prikbord-post {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.prikbord-post:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.prikbord-post h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.prikbord-post .post-meta {
+    font-size: 0.9em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.prikbord-post a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 0.9em;
+    transition: background-color 0.2s ease;
+}
+
+.prikbord-post a:hover {
+    background-color: #e0e0e0;
+    text-decoration: none;
+}
+
+/* Comment Form Styling */
+.prikbord-comment-form {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.prikbord-comment-form input[type="text"],
+.prikbord-comment-form input[type="email"],
+.prikbord-comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.prikbord-comment-form textarea {
+    min-height: 120px;
+}
+
+.prikbord-comment-form input[type="submit"] {
+    background-color: #2271b1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.prikbord-comment-form input[type="submit"]:hover {
+    background-color: #135e96;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #prikbord-filter select,
+    #prikbord-filter input[type="text"] {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    #prikbord-filter button {
+        width: 100%;
+    }
+}

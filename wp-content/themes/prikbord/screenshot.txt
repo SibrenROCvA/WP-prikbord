@@ -1,0 +1,8 @@
+<!-- This is a placeholder. You should replace this with an actual image file (PNG) named screenshot.png -->
+<!-- The recommended size for theme screenshots is 1200x900 pixels -->
+<!-- 
+To add a real screenshot:
+1. Create a PNG image (1200x900px)
+2. Name it "screenshot.png"
+3. Upload it to the prikbord theme directory
+-->
